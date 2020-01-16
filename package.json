@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "axios": "^0.19.1",
+    "i": "^0.3.6",
+    "npm": "^6.13.6",
     "rxjs": "^6.5.4",
     "rxjs-compat": "^6.5.4",
+    "serialize-javascript": "^2.1.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vue-rx": "^6.2.0"
