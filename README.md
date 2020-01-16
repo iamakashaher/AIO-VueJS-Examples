@@ -1,4 +1,4 @@
-> A Vue.js examples (Components, Routing, Props, Methods, Watch, Computed, Custom Events)
+> A Vue.js examples (Components, Routing, Props, Methods, Watch, Computed, Custom Events, Consume API with Axios)
 
 ## Build Setup
 
