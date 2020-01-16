@@ -1,4 +1,4 @@
-> A Vue.js project
+> A Vue.js examples (Components, Routing, Props, Methods, Watch, Computed, Custom Events)
 
 ## Build Setup
 
