@@ -1,6 +1,6 @@
 > A Vue.js examples (Components, Routing, Props, Methods, Watch, Computed, Custom Events, Consume API with Axios) by Akash
 
-![AIO Examples](3DTest.png)
+![AIO Examples](https://github.com/iamakashaher/AIO-VueJS-Examples/blob/master/src/assets/AIO%20Examples.png)
 
 ## Build Setup
 
