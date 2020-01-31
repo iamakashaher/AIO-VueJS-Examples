@@ -17,20 +17,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/blog">Blog</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/services">Services</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contact</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/api">Api Call & Props</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/computed">Computed & Watch</router-link>
+            <li class="nav-item" v-for="path in paths" :key="path">
+              <router-link :to="path.path" class="nav-link">{{path.name}}</router-link>
             </li>
           </ul>
         </div>
@@ -46,7 +34,18 @@
 
 <script>
 export default {
-  name: "App"
+  name: "App",
+  data() {
+    return {
+      paths: [
+        { path: "/blog", name: "Blog" },
+        { path: "/services", name: "Services" },
+        { path: "/contact", name: "Contacts" },
+        { path: "/api", name: "API" },
+        { path: "/computed", name: "Computed" }
+      ]
+    };
+  }
 };
 </script>
 
